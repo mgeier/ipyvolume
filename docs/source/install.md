@@ -54,7 +54,7 @@ $ jupyter nbextension enable --py --user widgetsnbextension
 
 
 
-# Developer installation
+## Developer installation
 
 ```
 $ git clone https://github.com/maartenbreddels/ipyvolume.git
@@ -73,9 +73,9 @@ $ jupyter nbextension enable --py --sys-prefix ipywebrtc
 $ jupyter nbextension enable --py --sys-prefix ipyvolume
 ```
 
-# Developer workflow
+## Developer workflow
 
-## Jupyter notebook (classical)
+### Jupyter notebook (classical)
 
 *Note: There is never a need to restart the notebook server, nbextensions are picked up after a page reload.*
 
@@ -89,4 +89,3 @@ It will
  * Watch the lib dir, and webpack will build (among other things), `ROOT/ipyvolume/static/index.js`.
 
 Refresh the page.
-
