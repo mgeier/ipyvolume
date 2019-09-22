@@ -20,10 +20,10 @@ var volume = require('./volume.js')
 
 window.THREE = THREE;
 
-require("./three/OrbitControls.js")
-require("./three/TrackballControls.js")
-require("./three/DeviceOrientationControls.js")
-require("./three/StereoEffect.js")
+require("three-examples/controls/OrbitControls");
+require("three-examples/controls/TrackballControls");
+require("three-examples/controls/DeviceOrientationControls");
+require("three-examples/effects/StereoEffect");
 require("./three/THREEx.FullScreen.js")
 require("./three/CombinedCamera.js")
 ndarray = require('ndarray')

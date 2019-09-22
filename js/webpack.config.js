@@ -11,11 +11,17 @@ var rules = [
         test: /\.(js|ts)$/,
         use: ["source-map-loader"],
         enforce: "pre"
-      }
+      },
+    // See https://stackoverflow.com/a/44960831/
+    { test: /three\/examples\/js/, use: 'imports-loader?THREE=three'},
 ];
 
 var resolve =  {
-    extensions: ['.ts', '.js']
+    extensions: ['.ts', '.js'],
+    alias: {
+      // See https://stackoverflow.com/a/44960831/
+      'three-examples': path.join(__dirname, './node_modules/three/examples/js')
+    },
 };
 
 
