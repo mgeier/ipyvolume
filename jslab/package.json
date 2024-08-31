@@ -11,7 +11,7 @@
   "devDependencies": {
     "json-loader": "^0.5.4",
     "url-loader": "^0.5.7",
-    "webpack": "^1.12.14",
+    "webpack": "^5.94.0",
     "raw-loader": "^0.5.1"
   },
   "dependencies": {
